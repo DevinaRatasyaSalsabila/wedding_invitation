@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101b14">
+    <title>The Wedding of Andy &amp; Zhea</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <div class="phone" id="invitation">
+        <div class="landscape" aria-hidden="true">
+          <div class="moon"></div>
+          <div class="mountain"></div>
+          <div class="temple">
+            <div class="temple-roof"></div>
+            <div class="temple-roof lower"></div>
+            <div
+              class="temple-columns"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="water"></div>
+          <div class="branch left"></div>
+          <div class="branch right"></div>
+          <span class="bird bird-one" aria-hidden="true">⌁</span>
+          <span class="bird bird-two" aria-hidden="true">⌁</span>
+          <span class="bird bird-three" aria-hidden="true">⌁</span>
+        </div>
+
+        <div class="story-progress" id="storyProgress"
+          aria-label="Progress halaman">
+          <span
+            class="active"></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <section class="cover" id="cover">
+          <p class="eyebrow">The Wedding Of</p>
+          <h1 class="couple-names">Andy <span>&amp;</span> Zhea</h1>
+          <p class="wedding-date">SABTU, 12 DESEMBER 2026</p>
+
+          <!-- Ganti ilustrasi di bawah dengan foto pengantin, misalnya images/pengantin.jpg -->
+          <div class="">
+            <div class="portrait" role="img"
+              aria-label="Ilustrasi pasangan pengantin">
+              <div class="portrait-glow"></div>
+              <!-- <div class="silhouette">
+              <div class="person woman"></div>
+              <div class="person man"></div>
+            </div> -->
+              <div class="portrait-frame">
+                <img
+                  class="portrait-photo"
+                  src="images/pengantin2.jpg"
+                  alt="Foto Andy dan Zhea">
+              </div>
+            </div>
+          </div>
+
+          <p class="recipient-label">Kepada Yth.</p>
+          <p class="recipient">Tamu Undangan</p>
+          <button class="gold-button open-button" id="openInvitation">✉ &nbsp;
+            BUKA UNDANGAN</button>
+        </section>
+
+        <section class="story-page" id="storyPage" aria-live="polite"
+          tabindex="-1">
+          <p class="eyebrow" id="storyLabel">Hari Bahagia Kami</p>
+          <div class="ornament" aria-hidden="true">❦</div>
+          <h2 id="storyTitle">Akad &amp; Resepsi</h2>
+          <div id="storyContent"></div>
+          <button class="gold-button next-button" id="nextStory">LANJUT CERITA
+            &nbsp; ›</button>
+        </section>
+
+        <button class="tap-zone tap-left" id="previousTap"
+          aria-label="Halaman sebelumnya"></button>
+        <button class="tap-zone tap-right" id="nextTap"
+          aria-label="Halaman berikutnya"></button>
+      </div>
+
+      <!-- <nav class="demo-controls" aria-label="Kontrol pratinjau">
+      <button id="previousButton" type="button">‹ Kembali</button>
+      <span id="pageCounter">Sampul undangan</span>
+      <button id="nextButton" type="button">Lanjut ›</button>
+    </nav>
+    <p class="helper">Klik area kanan/kiri untuk berpindah halaman. Di halaman Love Story, gulir ke bawah untuk membaca ceritanya.</p> -->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
